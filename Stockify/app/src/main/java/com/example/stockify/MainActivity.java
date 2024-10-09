@@ -176,6 +176,7 @@ public class MainActivity extends AppCompatActivity {
         search.setOnClickListener(view -> {
             String symbolString = symbol.getText().toString();
             if (!symbolString.isEmpty()) {
+                isToastVisible = false;
                 colorLinearLayout.setBackgroundColor(Color.WHITE); // Reset color to white on new search
                 previousPrice = null;
                 loadingText.setText("");

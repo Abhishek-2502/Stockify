@@ -111,12 +111,12 @@ public class StockViewModel extends ViewModel {
                         fetchCompanyProfile(symbol); // Fetch company profile if stock data is valid
                     } else {
                         // Trigger error message once for invalid stock symbol
-                        errorMessage.setValue("Oops! We couldn't find any information for the stock symbol you entered. Please check the symbol and try again.");
+                        errorMessage.setValue("Invalid Symbol. Try Again!");
                         isLoading.setValue(false); // Stop loading if error
                     }
                 } else {
                     // Trigger error for invalid symbol or empty response
-                    errorMessage.setValue("Oops! We couldn't find any information for the stock symbol you entered. Please check the symbol and try again.");
+                    errorMessage.setValue("Invalid Symbol. Try Again!");
                     isLoading.setValue(false); // Stop loading if error
                 }
             }
@@ -124,7 +124,7 @@ public class StockViewModel extends ViewModel {
             @Override
             public void onFailure(Call<StockQuoteResponse> call, Throwable t) {
                 // Trigger network error message once
-                errorMessage.setValue("Looks like there's a problem connecting to the network. Please check your internet connection and try again.");
+                errorMessage.setValue("Network Issue!");
                 isLoading.setValue(false); // Stop loading on failure
                 t.printStackTrace();
             }
