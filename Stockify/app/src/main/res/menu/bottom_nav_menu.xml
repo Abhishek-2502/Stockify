@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Stocks"
+        android:icon="@drawable/baseline_data_exploration_24"
+        android:id="@+id/stocks"/>
+    <item android:title="SIP"
+        android:icon="@drawable/baseline_sip_24"
+        android:id="@+id/sip"/>
+    <item android:title="IPO"
+        android:icon="@drawable/baseline_insights_24"
+        android:id="@+id/ipo"/>
+</menu>
