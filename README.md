@@ -103,8 +103,12 @@ implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
 - **ViewModel** for maintaining a clean separation of UI and business logic.
 - **Glide** for loading images (e.g., company logos).
 
+### Important Note
+
+If the network connection is slow, data fetching from the API will take longer, especially when using an Android Virtual Device (AVD). It's recommended to use AVD with a fast network connection. Alternatively, you can run the app on a physical device by connecting via cable or using the APK for smoother performance.
+
 ## License
 This project is licensed under the MIT License.
 
 ## Author
-Arnav Jain
+Abhishek Rajput
