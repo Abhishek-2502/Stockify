@@ -2,6 +2,17 @@
 
 **Stockify** is an intuitive Android application that provides users with real-time stock market data. With a user-friendly interface and dynamic features, users can easily search for stock symbols and view comprehensive information, including current prices, percentage changes, and additional company details.
 
+
+## Table of Contents
+
+1. [Features](#features)
+2. [Screenshots](#screenshots)
+3. [Installation Instructions](#installation-instructions)
+4. [Usage](#usage)
+5. [Code Overview](#code-overview)
+6. [License](#license)
+7. [Author](#author)
+
 ## Features
 
 - **Stock Search**: Effortlessly search for stocks by entering their symbol (e.g., AAPL, TSLA).
@@ -17,7 +28,11 @@
 - **Future Navigation**: Navigation between different sections is planned for future implementation.
 
 ## Screenshots
-*(Add relevant screenshots of the app’s UI, including the main screen, stock search functionality, and the splash screen.)*
+<p align="center">
+    <img src="App_Images/splash.jpg" height="600" width="300" alt="Error">
+    <img src="App_Images/main_empty.jpg" height="600" width="300" alt="Error">
+    <img src="App_Images/main.jpg" height="600" width="300" alt="Error">
+</p>
 
 ## Installation Instructions
 
