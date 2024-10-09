@@ -29,9 +29,9 @@
 
 ## Screenshots
 <p align="center">
-    <img src="App_Images/splash.jpg" height="600" width="300" alt="Error">
-    <img src="App_Images/main_empty.jpg" height="600" width="300" alt="Error">
-    <img src="App_Images/main.jpg" height="600" width="300" alt="Error">
+    <img src="App_Images/splash.jpg" height="600" width="300" alt="Error" border=2>
+    <img src="App_Images/main_empty.jpg" height="600" width="300" alt="Error" border=2>
+    <img src="App_Images/main.jpg" height="600" width="300" alt="Error" border=2>
 </p>
 
 ## Installation Instructions
