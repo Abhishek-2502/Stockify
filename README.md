@@ -32,6 +32,8 @@
     <img src="App_Images/splash.jpg" height="500" width="250" alt="Error" border=2>
     <img src="App_Images/main_empty.jpg" height="500" width="250" alt="Error" border=2>
     <img src="App_Images/main.jpg" height="500" width="250" alt="Error" border=2>
+    <img src="App_Images/main_up.png" height="500" width="250" alt="Error" border=2>
+    <img src="App_Images/main_down.png" height="500" width="250" alt="Error" border=2>
 </p>
 
 ## Installation Instructions
